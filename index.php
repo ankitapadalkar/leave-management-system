@@ -1,14 +1,13 @@
 <?php
-include "templates/header.php;"?>
+include "templates/header.php"?>
 
 <section class="hero-banner d-flex align-item-center justify-content-center">
-<div class="container text-center text-black">
-    <h1>Leave Management System-PHP</h1>
-    <p>my college</p>
-    <button class="btn-primary">Login</button>
-</div>
-</section>
-
-
+        <div class="container text-center">
+            <h1>Leave Management System</h1>
+            <p>Internship Project</p>
+            <a href="login.php"><button class="btn btn-primary">Login</button></a>
+        </div>
+    </section>
 <?php
-    include 'templetes/footer.php';>
+    include 'templates/footer.php'
+?>
