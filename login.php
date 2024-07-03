@@ -28,11 +28,11 @@
                     <form action="<?php echo $_SERVER["PHP_SELF"];?>" method="POST">
                         <div class="mb-4">
                             <label for="username" class="form-label">Username/Email</label>
-                            <input type="text" class="form-control" id="username" name="username" required />
+                            <input type="text" class="form-control" id="username" placeholder="username/email" required />
                         </div>
                         <div class="mb-4">
                             <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" name="password" required />
+                            <input type="password" class="form-control" id="password" placeholder="password" required />
                         </div>
                         <div class="mb-4">
                             <input type="checkbox" class="form-check-input" id="remember" />
