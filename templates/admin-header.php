@@ -2,7 +2,7 @@
 
 <!--For style-->
   <head>
-    <link rel="stylesheet" href="../assets old/css/style.css">
+  <link rel="stylesheet" href="../assets old/css/style.css">
   </head>
 
 <!-- ======= Header ======= -->
