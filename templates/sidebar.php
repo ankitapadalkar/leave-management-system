@@ -6,19 +6,19 @@
   <?php if (isAdmin()) : ?>
   <li class="nav-item">
     <a class="nav-link " href="../admin/dashboard.php">
-      <i class="bi bi-grid"></i>
+      <i class="bi bi-house-door"></i>
       <span>Dashboard</span>
     </a>
   </li><!-- End Dashboard Nav -->
   <li class="nav-item">
     <a class="nav-link " href="../admin/manage_departments.php">
-      <i class="bi bi-grid"></i>
+      <i class="bi bi-award"></i>
       <span>Department</span>
     </a>
   </li><!-- End Dashboard Nav -->
   <li class="nav-item">
     <a class="nav-link " href="../admin/manage_leave_types.php">
-      <i class="bi bi-grid"></i>
+      <i class="bi bi-chat-right-dots"></i>
       <span>Leave Type</span>
     </a>
   </li><!-- End Dashboard Nav -->
@@ -36,7 +36,7 @@
   </li><!-- End Dashboard Nav -->
   <li class="nav-item">
     <a class="nav-link " href="../admin/list_leaves.php">
-      <i class="bi bi-list-task"></i>
+      <i class="bi bi-card-checklist"></i>
       <span>Leave List</span>
     </a>
   </li><!-- End Dashboard Nav -->

@@ -1,8 +1,8 @@
-/*section{
-        background-image: url(../images/herobanner.png);
+section{
+        background-image: url(..assets old/images/herobanner.png);
         background-size: cover;
         height: 100vh;
-        }*/
+        }
 section h1, p{
         color:#F4F6d7;
         text-align: center;
@@ -15,6 +15,9 @@ section h1, p{
         color:#F4F6d7;
     }
     
+    .header{
+        background-color: #EE82EE;
+      }
     
     
     
