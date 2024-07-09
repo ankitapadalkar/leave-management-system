@@ -703,7 +703,7 @@ h6 {
 }
 
 .sidebar-nav .nav-link.collapsed i {
-  color: #899bbd;
+  color: #d63384;
 }
 
 .sidebar-nav .nav-link:hover {
@@ -1230,4 +1230,35 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+.header{
+  background-color: #d63384;
+}
+.sidebar{
+  background-color: #d63384;
+}
+.nav-item{
+  span: #d63384;
+}
+
+/*.web{
+  background-image: url(../assets/images/here-banner.jpg);
+  background-size: cover;
+  height: 100vh;
+  }*/
+
+  .section h1, p{
+    color:#000000;
+    text-align: center;
+}
+.container{
+    padding-top: 50px;
+}
+.button a{
+    text-decoration: none;
+    color:#F4F6d7;
+}
+.image{
+  padding-top: 50px;
+  text-align: center;
 }

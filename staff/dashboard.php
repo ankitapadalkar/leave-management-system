@@ -1,17 +1,11 @@
-<?php 
+<?php
+session_start();
 include '../include/db-connection.php';
 include '../include/session.php';
-
 include '../templates/admin-header.php';
- 
 ?>
-
 <main id="main" class="main">
     <div class="pagetitle">
-        <h1>Welcome <?php echo(isset($_SESSION['user_name']) ? $_SESSION['user_name']:''); ?></h1>
-    </div> 
-
-     
-</main> 
-
-<?php include '../templates/footer.php'; ?>
+        <h1>Welcome to Admin dashboard</h1>
+    </div><!-- End Page Title -->
+</main>

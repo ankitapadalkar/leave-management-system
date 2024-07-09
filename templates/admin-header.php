@@ -31,7 +31,7 @@
     <li class="nav-item dropdown pe-3">
 
       <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-        <img src="../assets/images/profile-img.jpg" alt="profile" class="rounded-circle">
+        <img src="../assets/images/g.png" alt="profile" class="rounded-circle">
         <span class="d-none d-md-block dropdown-toggle ps-2">Ankita Padalkar</span>
       </a><!-- End Profile Iamge Icon -->
 

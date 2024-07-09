@@ -1,4 +1,7 @@
 <!-- ======= Sidebar ======= -->
+<head>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
 <aside id="sidebar" class="sidebar">
 
 <ul class="sidebar-nav" id="sidebar-nav">

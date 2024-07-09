@@ -124,7 +124,7 @@ include '../templates/admin-header.php';
                                     <td><?php echo $leave_type["type"]; ?></td>
                                     <td><?php echo $leave_type["status"]; ?></td>
                                     <td>
-                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#updateModal" onclick="setUpdateData(<?php echo htmlspecialchars(json_encode($leave_type)); ?>)">Update</button>
+                                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#updateModal" onclick="setUpdateData(<?php echo htmlspecialchars(json_encode($leave_type)); ?>)">Update</button>
                                         <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal" onclick="setDeleteData(<?php echo $leave_type['id']; ?>)">Delete</button>
                                     </td>
                                 </tr>
@@ -196,7 +196,7 @@ include '../templates/admin-header.php';
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" name="update_leave_type" class="btn btn-warning">Update</button>
+                    <button type="submit" name="update_leave_type" class="btn btn-success">Update</button>
                 </div>
             </form>
         </div>

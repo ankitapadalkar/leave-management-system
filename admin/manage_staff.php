@@ -276,7 +276,7 @@ include '../templates/admin-header.php';
                                    
                                     <td class="badge badge-primary"> <?php echo $staff["status"]; ?> </td>
                                     <td>
-                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#updateModal" onclick='setUpdateData(<?php echo json_encode($staff); ?>)'>Update</button>
+                                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#updateModal" onclick='setUpdateData(<?php echo json_encode($staff); ?>)'>Update</button>
                                         <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal" onclick="setDeleteData(<?php echo $staff['id']; ?>)">Delete</button>
                                     </td>
                                 </tr>
@@ -493,7 +493,7 @@ include '../templates/admin-header.php';
                   </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" name="update_staff" class="btn btn-primary">Update</button>
+                    <button type="submit" name="update_staff" class="btn btn-success">Update</button>
                 </div>
               </form>
         </div>

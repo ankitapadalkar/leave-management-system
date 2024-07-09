@@ -52,7 +52,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
 
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
-                  <img src="<?php $base; ?>assets/images/logo.png" alt="">
+             <div class="web1">   
+              <img src="<?php $base; ?>assets/images/admin.jpg" alt=""  class="rounded-circle" width="50" height="50">
+          </div>
                   <!--<span class="d-none d-lg-block">Walstar</span>-->
                 </a>
               </div><!-- End Logo -->
