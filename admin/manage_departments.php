@@ -2,6 +2,7 @@
 session_start();
 include '../include/db-connection.php';
 
+
 // Handle form submissions
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   if (isset($_POST['add_department']) && !empty($_POST['department_name'])) {
@@ -103,7 +104,7 @@ include '../templates/admin-header.php';
                                 }, 5000);
                             </script>
                         <?php endif; ?>
-
+                      
                         <button type="button" class="btn btn-primary mt-3 mb-3" data-bs-toggle="modal" data-bs-target="#addModal">
                             Add Department
                         </button>
