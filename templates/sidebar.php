@@ -1,7 +1,4 @@
 <!-- ======= Sidebar ======= -->
-<head>
-  <link rel="stylesheet" href="../assets/css/style.css">
-  </head>
 <aside id="sidebar" class="sidebar">
 
 <ul class="sidebar-nav" id="sidebar-nav">
@@ -9,19 +6,19 @@
   <?php if (isAdmin()) : ?>
   <li class="nav-item">
     <a class="nav-link " href="../admin/dashboard.php">
-      <i class="bi bi-house-door"></i>
+      <i class="bi bi-grid"></i>
       <span>Dashboard</span>
     </a>
   </li><!-- End Dashboard Nav -->
   <li class="nav-item">
     <a class="nav-link " href="../admin/manage_departments.php">
-      <i class="bi bi-award"></i>
+      <i class="bi bi-grid"></i>
       <span>Department</span>
     </a>
   </li><!-- End Dashboard Nav -->
   <li class="nav-item">
     <a class="nav-link " href="../admin/manage_leave_types.php">
-      <i class="bi bi-chat-right-dots"></i>
+      <i class="bi bi-grid"></i>
       <span>Leave Type</span>
     </a>
   </li><!-- End Dashboard Nav -->
@@ -39,12 +36,12 @@
   </li><!-- End Dashboard Nav -->
   <li class="nav-item">
     <a class="nav-link " href="../admin/list_leaves.php">
-      <i class="bi bi-card-checklist"></i>
+      <i class="bi bi-list-task"></i>
       <span>Leave List</span>
     </a>
   </li><!-- End Dashboard Nav -->
   
-  <?php elseif (isStaff() || isHOD()) : ?>
+  <?php elseif (isStaff()) : ?>
     <li class="nav-item">
       <a class="nav-link " href="../staff/dashboard.php">
         <i class="bi bi-grid"></i>
@@ -57,13 +54,19 @@
         <span>Leaves</span>
       </a>
     </li> 
-  <?php elseif (isHOD()) : ?>
+  <?php elseif (isHOD()) : ?> 
     <li class="nav-item">
-      <a class="nav-link " href="../staff/list_leaves.php">
-        <i class="bi bi-list-task"></i>
-        <span>Leave List</span>
+      <a class="nav-link " href="../hod/dashboard.php">
+        <i class="bi bi-grid"></i>
+        <span>Dashboard</span>
       </a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link " href="../hod/leaves.php">
+        <i class="bi bi-grid"></i>
+        <span>Leaves</span>
+      </a>
+    </li> 
   <?php endif ?>
 </ul>
 

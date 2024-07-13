@@ -6,10 +6,11 @@ include '../include/session.php';
 checkLogin();
 
 // Check if user is admin
-if (!isStaff()) {
+if (!isHOD()) {
     header('Location: ../login.php');
     exit();
 }
+
 
 
 
@@ -46,7 +47,6 @@ if ($result->num_rows > 0) {
 else{
   $leaves = [];
 }
-
  
 $sql2 = "SELECT * FROM leave_types";
 $result2 = $conn->query($sql2);
@@ -90,7 +90,7 @@ include '../templates/admin-header.php';
                     <th>Status</th>
                   </tr>
                 </thead>
-              <tbody>
+                <tbody>
                   <?php  foreach($leaves as $leave){ 
                     $dateDiff = dateDiffInDays($leave["start_date"], $leave["end_date"]);
                     echo'<tr>
